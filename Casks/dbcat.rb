@@ -1,9 +1,9 @@
 cask "dbcat" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "0.8.6"
-  sha256 arm:   "5bb8ec5f392fb5790b71e8a545348d22cdbbd9c71ad34465b8b8b3adde3eff2f",
-         intel: "c4610265da0f8c07c7610f78bf3f9bab34adbcaafd8b3a1db3ef9f948ad5b972"
+  version "0.8.7"
+  sha256 arm:   "30fc5cfdf63bae0607004308408be7fb7d16726f194a9594da02a3648c72eff3",
+         intel: "758db62696e8cd736b574bdc54b2a8fa28af2aecf9f5fb78a1dde2392107c126"
 
   url "https://github.com/dbcat-app/dbcat/releases/download/v#{version}/DbCat-#{version}-#{arch}.dmg"
   name "DbCat"
